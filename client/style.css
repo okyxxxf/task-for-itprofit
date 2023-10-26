@@ -1,0 +1,142 @@
+* {
+  font-family: Manrope;
+  font-weight: 500;
+}
+
+.h1 {
+  font-size: 32px;
+  color: #202020;
+}
+
+.legend, .input, .label {
+  font-size: 18px;
+  color: #202020;
+}
+
+@media screen and (max-width: 864px) {
+  .h1 {
+    font-size: 18px;
+  }
+  .legend, .input, .label {
+    font-size: 14px;
+  }
+}
+.input {
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 0;
+  background: #f1f1f1;
+}
+
+.button {
+  padding: 10px 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  transition: 0.4s;
+  cursor: pointer;
+  width: 260px;
+  align-self: center;
+}
+
+.button:hover {
+  background-color: #4982eb;
+  color: #f1f1f1;
+}
+
+.button:active {
+  background-color: #1b62e6;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: radial-gradient(circle at bottom right, #8988ca, #4982eb);
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.legend {
+  text-align: center;
+}
+
+.main {
+  max-width: 1440px;
+  width: calc(100% - 40px);
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__h1 {
+  padding: 30px 0 0 0;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+@media screen and (max-width: 864px) {
+  .main {
+    width: 98%;
+  }
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+textarea {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

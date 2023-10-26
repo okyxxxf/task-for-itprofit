@@ -1,0 +1,19 @@
+.button {
+    padding: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: $background-color-primary;
+    transition: 0.4s;
+    cursor: pointer;
+    width: 260px;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: $background-color-secondary;
+    color: $font-color-accent;
+}
+
+.button:active {
+    background-color: darken($background-color-secondary, 10%);
+}

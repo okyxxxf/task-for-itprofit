@@ -1,0 +1,24 @@
+* {
+    font-family: Manrope;
+    font-weight: 500;
+}
+
+.h1 {
+    font-size: $font-size-header-desktop;
+    color: $font-color;
+}
+
+.legend, .input, .label {
+    font-size: $font-size-desktop;
+    color: $font-color;
+}
+
+@media screen and (max-width: 864px) {
+    .h1 {
+        font-size: $font-size-header-mobile;
+    }
+    
+    .legend, .input, .label {
+        font-size: $font-size-mobile;
+    }
+}
