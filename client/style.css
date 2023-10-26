@@ -13,6 +13,10 @@
   color: #202020;
 }
 
+.button {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 864px) {
   .h1 {
     font-size: 18px;
@@ -30,23 +34,16 @@
 }
 
 .button {
-  padding: 10px 0;
+  padding: 10px 40px;
   border: 0;
   border-radius: 5px;
-  background-color: #f1f1f1;
-  transition: 0.4s;
+  background: radial-gradient(circle at bottom right, #8988ca, #4982eb);
+  transition: 0.3s;
   cursor: pointer;
-  width: 260px;
-  align-self: center;
 }
 
 .button:hover {
-  background-color: #4982eb;
   color: #f1f1f1;
-}
-
-.button:active {
-  background-color: #1b62e6;
 }
 
 .feedback__form {
@@ -58,6 +55,12 @@
   border-radius: 20px;
   width: 80%;
   margin: auto;
+  position: relative;
+}
+
+.feedback__button {
+  position: absolute;
+  bottom: -60px;
 }
 
 .legend {

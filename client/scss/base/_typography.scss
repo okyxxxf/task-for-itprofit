@@ -13,6 +13,10 @@
     color: $font-color;
 }
 
+.button {
+    font-size: $font-size-desktop;
+}
+
 @media screen and (max-width: 864px) {
     .h1 {
         font-size: $font-size-header-mobile;

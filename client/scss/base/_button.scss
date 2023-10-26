@@ -1,19 +1,12 @@
 .button {
-    padding: 10px 0;
+    padding: 10px 40px;
     border: 0;
     border-radius: 5px;
-    background-color: $background-color-primary;
-    transition: 0.4s;
+    background: radial-gradient(circle at bottom right, #8988ca, $background-color-secondary);
+    transition: 0.3s;
     cursor: pointer;
-    width: 260px;
-    align-self: center;
 }
 
 .button:hover {
-    background-color: $background-color-secondary;
     color: $font-color-accent;
-}
-
-.button:active {
-    background-color: darken($background-color-secondary, 10%);
 }
