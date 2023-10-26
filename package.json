@@ -1,0 +1,16 @@
+{
+  "name": "task-for-itprofit",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass client/scss/main.scss client/style.css --watch",
+    "webpack": "npx webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
