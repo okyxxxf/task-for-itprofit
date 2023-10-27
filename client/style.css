@@ -54,8 +54,10 @@
   padding: 20px;
   border-radius: 20px;
   width: 80%;
+  max-width: 397px;
   margin: auto;
   position: relative;
+  flex-shrink: 1;
 }
 
 .feedback__button {
@@ -65,6 +67,17 @@
 
 .legend {
   text-align: center;
+}
+
+.error {
+  border: 3px solid red;
+}
+
+.error__label {
+  transition: 0.6s;
+  background-color: rgb(255, 116, 116);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .main {
