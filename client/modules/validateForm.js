@@ -30,6 +30,7 @@ const validateForm = (form) => {
 			});
 
 			input.after(errorElement);
+		} else {
 			isValid[i] = true;
 		}
 	});
