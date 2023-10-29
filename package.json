@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "scss": "sass client/scss/main.scss client/style.css --watch",
-    "webpack": "npx webpack --watch"
+    "webpack": "npx webpack --watch",
+    "server": "node server/index.js" 
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,8 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "cleave.js": "^1.6.0"
+    "cleave.js": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   }
 }

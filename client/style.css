@@ -62,7 +62,7 @@
 
 .feedback__button {
   position: absolute;
-  bottom: -60px;
+  bottom: -53px;
 }
 
 .legend {
@@ -80,6 +80,30 @@
   border-radius: 10px;
 }
 
+.responce {
+  padding: 10px;
+  border-radius: 5px;
+  align-self: flex-end;
+  margin-right: 30px;
+  animation: show 0.3s ease;
+}
+
+.responce.success {
+  background-color: rgb(103, 250, 103);
+}
+
+.responce.error {
+  background-color: rgb(252, 148, 148);
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .main {
   max-width: 1440px;
   width: calc(100% - 40px);
@@ -103,6 +127,13 @@ body {
     width: 98%;
   }
 }
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

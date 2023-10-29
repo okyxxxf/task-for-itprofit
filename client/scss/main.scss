@@ -9,10 +9,12 @@
 @import 
     'components/feedback-form',
     'components/form',
-    'components/error';
+    'components/error',
+    'components/responce';
 
 @import
-    'layouts/main';
+    'layouts/main',
+    'layouts/feedback';
 
 @import 
     'vendor/reset';
