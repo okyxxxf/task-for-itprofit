@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/components/general/img/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <h1 class="h1 main__h1">Форма обратной связи и <button class="modal__button button">Модальное окно</button></h1>
+        <article class="feedback">
+            <form action="" class="feedback__form">
+                <legend class="feedback__legend legend">Оставить обратную связь</legend>
+                <label class="feedback__label label" for="name">Имя:</label>
+                <input class="feedback__input input" type="text" id="name">
+                <label class="feedback__label label" for="email">E-mail:</label>
+                <input class="feedback__input input" type="email" id="email">
+                <label class="feedback__label label" for="phone">Телефон:</label>
+                <input class="feedback__input input" type="text" id="phone">
+                <label class="feedback__label label" for="message">Сообщение:</label>
+                <textarea class="feedback__input input" name="message" id="message" cols="40" rows="3"></textarea>
+
+                <input class="button feedback__button" type="submit" value="Оставить">
+            </form>
+            <div class="responce"></div>
+        </article>
+        <div class="modal">
+            <modal class="modal__wrapper">
+                <h2 class="h2 modal__h2">Модальное окно бе бе бе</h2>
+            </modal>
+        </div>
+    </main>
+    <script src="bundle.js"></script>
+</body>
+</html>

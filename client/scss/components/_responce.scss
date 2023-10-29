@@ -1,0 +1,24 @@
+.responce {
+    padding: 10px;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-right: 30px;
+    animation: show 0.3s ease;
+}
+
+.responce.success {
+    background-color: rgb(103, 250, 103);
+}
+
+.responce.error {
+    background-color: rgb(252, 148, 148);
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

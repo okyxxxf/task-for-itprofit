@@ -1,0 +1,19 @@
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: radial-gradient(circle at bottom right, #8988ca, $background-color-secondary);
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 397px;
+    margin: auto;
+    position: relative;
+    flex-shrink: 1;
+}
+
+
+.feedback__button {
+    position: absolute;
+    bottom: -53px;
+}
