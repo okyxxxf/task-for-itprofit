@@ -104,6 +104,48 @@
     opacity: 1;
   }
 }
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.266);
+  animation: showModal 0.5s ease;
+}
+
+@keyframes showModal {
+  from {
+    opacity: 0;
+  }
+}
+.modal__wrapper {
+  background: #4982eb;
+  width: 260px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  animation: translateModal 0.5s ease;
+}
+
+@keyframes translateModal {
+  from {
+    transform: translateX(70%);
+  }
+}
+.modal:not(.open) {
+  visibility: hidden;
+  display: none;
+}
+
+.modal-open {
+  overflow: hidden;
+  padding-right: 15px;
+}
+
 .main {
   max-width: 1440px;
   width: calc(100% - 40px);
