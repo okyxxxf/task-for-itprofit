@@ -16,6 +16,9 @@ const validateForm = (form) => {
 		/[a-zA-ZА-Яа-я0-9]+/ // Сообщение, проверка что там есть хоть что то
 	];
 
+	const errors = document.querySelectorAll('.error__label');
+	errors.forEach(div => div.remove());
+
 	inputs.forEach((input, i) => {
 		if (!templates[i].test(input.value)) {
 			input.classList.add('error');
